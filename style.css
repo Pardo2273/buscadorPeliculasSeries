@@ -1,0 +1,49 @@
+/*recordar que 1rem equivalen a 16 pixeles*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*este es el select que contiene las opciones*/
+#contenedorPeliculasSeries{
+    width: 6rem;
+    height: 1.8rem;
+    margin: 1rem 0.3rem;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+#contenedorPeliculasSeries:focus{
+    width: 6rem;
+    height: 1.5rem;
+    margin: 1rem 0.3rem;
+    border-radius: 0.3rem;
+    background-color: rgb(114, 111, 111);
+    color: burlywood;
+}
+
+.containerNavegador{
+    display: grid;
+    width: 45%;
+}
+
+/*input*/
+#barraBuscar{
+    width: 45%;
+    height: 2rem;
+    font-size: medium;
+    margin: 0.5rem 0;
+    border-radius: 0.2rem;
+}
+
+/*boton*/
+#boton{
+    width: 46%;
+    height: 2rem;
+    font-size: medium;
+    color: black;
+    background-color: white;
+}
+
+
+
