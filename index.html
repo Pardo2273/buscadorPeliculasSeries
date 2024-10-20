@@ -9,16 +9,18 @@
 <body>
     <label>Seleccione una opción: </label>
     <select id="contenedorPeliculasSeries">
-        <option value="peliculas.json">Peliculas</option>
+        <option selected="true" value="peliculas.json">Peliculas</option> <!--esta la seleccione por defecto porque si el usuario no quiere cambiar de opcion de una vez que haga la busqueda-->
         <option value="series.json">Series</option>
     </select>
     <div class="containerNavegador">
-        <input type="text" id="barraBuscar" placeholder="Ingrese para buscar...">
-        <button id="boton">Buscar</button>
+        <input type="text" id="barraBuscar" placeholder="Ingrese el nombre para buscar...">
+        <button id="botonBuscar">Buscar</button>
     </div>
     
 
-    <ul id="listaHallazgos"></ul>
+    <ul id="listaHallazgos">
+        <!--aqui se despliegan los elementos que se encontraran en el json-->
+    </ul>
 
     <script src="script.js"></script>
 </body>

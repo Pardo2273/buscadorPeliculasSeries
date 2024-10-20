@@ -37,7 +37,7 @@
 }
 
 /*boton*/
-#boton{
+#botonBuscar{
     width: 46%;
     height: 2rem;
     font-size: medium;
@@ -45,5 +45,14 @@
     background-color: white;
 }
 
+#botonBuscar:hover{
+    width: 46%;
+    height: 2rem;
+    font-size: medium;
+    color: white;
+    background-color: black;
+}
 
-
+li{
+    margin: 35px;
+}
